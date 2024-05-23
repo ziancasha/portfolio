@@ -186,8 +186,8 @@ p {
 /* Case Study */
 .section-casos-de-estudio {
     position: relative;
-    background-color: #587DA5; /* Color base */
-    padding: 60px 20px;
+    background-color: #587DA5;
+    padding: 50px 20px;
     overflow: hidden;
 }
 
