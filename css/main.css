@@ -123,7 +123,7 @@ a {
 /* Hero Area */
 .container-ha {
     width: 100%;
-    height: 630px;
+    height: auto;
     background-color: #EAF2F8;
     padding: 90px 10px;
 }
@@ -145,6 +145,7 @@ p {
     height: 50px;
     background-color: #0C141D;
     border: none;
+    position: absolute;
     top: 10%;
     left: 90%;
     transform: translate(-50%, -50%);
@@ -154,6 +155,7 @@ p {
     width: 80px;
     height: 80px;
     background-color: #587DA5;
+    position: absolute;
     border: none;
     top: 0%;
     right: 85%;
@@ -163,6 +165,7 @@ p {
     width: 150px;
     height: 150px;
     background-color: #2E4564;
+    position: absolute;
     border: none;
     bottom: 0%;
     left: 0%;
@@ -175,6 +178,7 @@ p {
     max-width: 100%;
 }
 .card-tagline {
+    margin: 20px 10px;
     background-color: #0C141D;
     border-radius: 15px;
 }
@@ -225,4 +229,18 @@ p {
 .section-casos-de-estudio p {
     color: #EAF2F8;
     max-width: 800px;
+}
+
+/* Responsive */
+@media (min-width: 992px) {
+    .container-ha {
+        height: 680px;
+    }
+}
+
+/* Para tabletas y móviles */
+@media (max-width: 991px) {
+    .container-ha {
+        height: auto;
+    }
 }
