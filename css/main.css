@@ -1,0 +1,83 @@
+html {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20;
+    font-style: normal;
+    background-color: #EAF2F8;
+}
+
+body {
+    margin: auto;
+    color: #0C141D;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 84.72;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 52.36;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 32.36;
+    font-weight: 800;
+    font-style: normal;
+}
+
+p, 
+li,a {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* UI Kit */
+.buttonp {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px; 
+    background-color: #2E4564 ; 
+    color: #EAF2F8;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+.buttonp:hover {
+    background-color: #99B2CA ;
+    color: #0C141D;
+}
+
+/* Navbar */
+.icon-padding {
+    margin-right: 10px;
+}
+
+.menu-container {
+    background-color: #EAF2F8 ;
+}
+
+.menu-text {
+    color: #0C141D;
+}
+
+.menu-text, a {
+    text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+.menu-text:hover {
+    text-decoration: underline;
+    padding-bottom: 0.5rem;
+    color: #2E4564;
+}
