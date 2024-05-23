@@ -47,6 +47,10 @@ a {
     color: #0C141D;
 }
 
+.text-overlay {
+    color: #EAF2F8;
+}
+
 .buttonp {
     font-family: "Quicksand", sans-serif;
     font-size: 20px; 
@@ -161,4 +165,52 @@ p {
     bottom: 0%;
     left: 0%;
     transform: translateX(-50%);
+}
+
+/* Case Study */
+.section-casos-de-estudio {
+    position: relative;
+    background-color: #587DA5; /* Color base */
+    padding: 60px 20px;
+    overflow: hidden;
+}
+
+.section-casos-de-estudio::before,
+.section-casos-de-estudio::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.section-casos-de-estudio::before {
+    width: 300px;
+    height: 300px;
+    background-color: #99B2CA;
+    top: -50px;
+    left: -50px;
+}
+
+.section-casos-de-estudio::after {
+    width: 400px;
+    height: 400px;
+    background-color: #99B2CA;
+    bottom: -100px;
+    right: -100px;
+}
+
+.section-casos-de-estudio .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.section-casos-de-estudio h2 {
+    color: #EAF2F8;
+}
+
+.section-casos-de-estudio p {
+    color: #EAF2F8;
+    max-width: 800px;
 }
