@@ -231,6 +231,15 @@ p {
     max-width: 800px;
 }
 
+/* Footer */
+.footer-container {
+    background-color: #2E4564;
+    color: #EAF2F8;
+}
+
+.footer-icon {
+    color: #EAF2F8;
+}
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
