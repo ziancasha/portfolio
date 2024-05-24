@@ -1,6 +1,5 @@
 html {
     font-family: "Quicksand", sans-serif;
-    font-size: 20;
     font-style: normal;
     background-color: #EAF2F8;
 }
@@ -47,10 +46,21 @@ a {
 /* UI Kit */
 .text-style {
     color: #0C141D;
+    font-size: 20px;
 }
 
 .text-overlay {
     color: #EAF2F8;
+}
+
+.icon-style {
+    color: #0C141D;
+    text-decoration: none;
+}
+
+.icon-style:hover {
+    color: #0C141D;
+    text-decoration: none;
 }
 
 .buttonp {
@@ -243,6 +253,7 @@ p {
 .footer-icon {
     color: #EAF2F8;
 }
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
