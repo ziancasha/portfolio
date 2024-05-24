@@ -6,8 +6,8 @@ html {
 }
 
 body {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     color: #0C141D;
 }
 
@@ -77,14 +77,15 @@ a {
     background-color: #EAF2F8;
     padding: 8px 5px;
     border-radius: 6px;
-    border: none;
     font-weight: bold;
+    border: 1px solid #0C141D;
 }
 
 .buttons:hover {
     background-color: #99B2CA ;
     color: #0C141D;
     font-weight: bold;
+    border: 1px solid #99B2CA;
 }
 
 /* Navbar */
