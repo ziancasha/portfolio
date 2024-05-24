@@ -265,6 +265,16 @@ p {
     color: #EAF2F8;
 }
 
+/* Forma de contacto */
+.contactoContainer {
+    background-color: #EAF2F8;
+    min-height: 100%;
+}
+
+.formContainer {
+    min-height: 100%;
+}
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
