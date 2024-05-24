@@ -200,8 +200,9 @@ p {
 .section-casos-de-estudio {
     position: relative;
     background-color: #587DA5;
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
     overflow: hidden;
+    padding: 50px 20px 50px 20px;
 }
 
 .section-casos-de-estudio::before,
@@ -242,6 +243,16 @@ p {
 .section-casos-de-estudio p {
     color: #EAF2F8;
     max-width: 800px;
+}
+
+/* Skills */
+.icon-skill {
+    color: #0C141D;
+}
+
+.skill-container {
+    min-height: 100%;
+    padding: 50px 10px 50px 10px;
 }
 
 /* Footer */
