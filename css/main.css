@@ -234,6 +234,7 @@ p {
     /* padding: 50px 20px; */
     overflow: hidden;
     padding: 50px 20px 50px 20px;
+    margin: 0px;
 }
 
 .section-casos-de-estudio::before,
@@ -254,8 +255,8 @@ p {
 }
 
 .section-casos-de-estudio::after {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     background-color: #99B2CA;
     bottom: -100px;
     right: -100px;
@@ -290,6 +291,7 @@ p {
 .footer-container {
     background-color: #2E4564;
     color: #EAF2F8;
+    margin: 0px;
 }
 
 .footer-icon {
