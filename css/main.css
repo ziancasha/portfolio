@@ -67,13 +67,17 @@ a {
     color: #EAF2F8;
 }
 
+.textTitulos {
+    color: #0C141D;
+}
+
 .icon-style {
     color: #0C141D;
     text-decoration: none;
 }
 
 .icon-style:hover {
-    color: #0C141D;
+    color: #2E4564;
     text-decoration: none;
 }
 
