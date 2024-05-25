@@ -49,6 +49,20 @@ a {
     font-size: 20px;
 }
 
+.textCard {
+    color: #0C141D;
+    font-size: 16px;
+}
+
+.textCardHeader {
+    color: #2E4564;
+    font-size: 20px;
+}
+
+.textCardHeader:hover {
+    color: #99B2CA;
+}
+
 .text-overlay {
     color: #EAF2F8;
 }
@@ -75,6 +89,23 @@ a {
 }
 
 .buttonp:hover {
+    background-color: #99B2CA ;
+    color: #0C141D;
+    font-weight: bold;
+}
+
+.buttonpCards {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px; 
+    background-color: #2E4564 ; 
+    color: #EAF2F8;
+    padding: 7px 5px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+}
+
+.buttonpCards:hover {
     background-color: #99B2CA ;
     color: #0C141D;
     font-weight: bold;
@@ -275,6 +306,15 @@ p {
     min-height: 100%;
 }
 
+/* Proyectos */
+.proyectosContainer{
+    background-color: #EAF2F8;
+}
+
+.cardimg {
+    height: 640px;
+}
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
@@ -285,6 +325,20 @@ p {
 /* Para tabletas y móviles */
 @media (max-width: 991px) {
     .container-ha {
+        height: auto;
+    }
+}
+
+/* Página proyectos */
+@media (min-width: 992px) {
+    .cardimg {
+        height: 640px;
+    }
+}
+
+/* Para tabletas y móviles */
+@media (max-width: 991px) {
+    .cardimg {
         height: auto;
     }
 }
