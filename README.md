@@ -46,7 +46,7 @@ mejorar la experiencia de usuario y aumentar la eficiencia y satisfacción de lo
 Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme.
 - *Correo electrónico:* [contacto@casha.mx](mailto:contacto@casha.mx)
 - **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/cinthyacastaneda/)
-- **Sitio web:** ![casha.mx](https://portfolio-casha.netlify.app)
+- **Sitio web:** [casha.mx](https://portfolio-casha.netlify.app)
 
 ¡Estoy emocionada por la oportunidad de colaborar contigo en tu proyecto digital!
 
