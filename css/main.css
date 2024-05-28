@@ -225,6 +225,7 @@ p {
     margin: 0px auto;
     padding: 20px;
 }
+
 .card-tagline {
     margin: 10px;
     background-color: #0C141D;
@@ -235,7 +236,6 @@ p {
 .section-casos-de-estudio {
     position: relative;
     background-color: #587DA5;
-    /* padding: 50px 20px; */
     overflow: hidden;
     padding: 50px 20px 50px 20px;
     margin: 0px;
@@ -321,6 +321,48 @@ p {
     height: 640px;
 }
 
+/* Hero-CaseStudies */
+.heroCaseStudies-Container {
+    height: 550px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.presentacionContainer {
+    background-color: #EAF2F8;
+    padding: 60px 10px 0px 10px;
+}
+
+.iconProjectDetails {
+    color: #EAF2F8;
+}
+
+.iconBGProjectDetails {
+    background-color: #0C141D;
+}
+
+.teamContainer {
+    background-color: #587DA5;
+    color: #EAF2F8;
+}
+
+.procesosContainer {
+    background-color: #EAF2F8;
+    color: #0C141D;
+}
+
+.userflowContainer {
+    border-radius: 10px;
+    background-color: #0C141D;
+    color: #EAF2F8;
+}
+
+.userflowImage {
+    background-size: contain;
+    height: auto;
+    width: 100%;
+}
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
@@ -346,5 +388,45 @@ p {
 @media (max-width: 991px) {
     .cardimg {
         height: auto;
+    }
+}
+
+/* Página Caso de estudio */
+@media (min-width: 992px) {
+    .projectDetails {
+        background: linear-gradient(to bottom, #EAF2F8 50%, #587DA5 50%);
+        margin: 0px auto;
+        padding: 20px;
+    }
+}
+
+/* Para tabletas y móviles */
+@media (max-width: 991px) {
+    .projectDetails {
+        background-color: #587DA5;
+        margin: 0px auto;
+        padding: 20px;
+    }
+}
+
+/* Proceso UX */
+@media (min-width: 992px) {
+    .resultadosEncuesta {
+        padding: 2rem 0 2rem 0;
+    }
+    
+    .resultadosEncuestaDes {
+        padding: 1rem 0 1rem 0;
+    }
+}
+
+/* Para tabletas y móviles */
+@media (max-width: 991px) {
+    .resultadosEncuesta {
+        padding: 1rem 0 1em 0;
+    }
+    
+    .resultadosEncuestaDes {
+        padding: 0.5 rem 0 0.5 rem 0;
     }
 }
