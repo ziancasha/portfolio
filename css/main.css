@@ -372,6 +372,21 @@ p {
     width: 100%;
 }
 
+/* Arquitectura de la info */
+.arqInformacionCard {
+    min-height: auto;
+}
+
+.arqInformacionContainer {
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.arqInformacionImage {
+    background-size: contain;
+    height: auto;
+    width: 100%;
+}
 
 /* Responsive */
 @media (min-width: 992px) {
