@@ -358,11 +358,21 @@ p {
     color: #EAF2F8;
 }
 
+.userFlowCard {
+    min-height: 550px;
+}
+
+.userFlowCardContainer {
+    height: auto;
+}
+
 .userflowImage {
     background-size: contain;
-    height: auto;
+    height: 300px;
     width: 100%;
 }
+
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
@@ -406,27 +416,5 @@ p {
         background-color: #587DA5;
         margin: 0px auto;
         padding: 20px;
-    }
-}
-
-/* Proceso UX */
-@media (min-width: 992px) {
-    .resultadosEncuesta {
-        padding: 2rem 0 2rem 0;
-    }
-    
-    .resultadosEncuestaDes {
-        padding: 1rem 0 1rem 0;
-    }
-}
-
-/* Para tabletas y móviles */
-@media (max-width: 991px) {
-    .resultadosEncuesta {
-        padding: 1rem 0 1em 0;
-    }
-    
-    .resultadosEncuestaDes {
-        padding: 0.5 rem 0 0.5 rem 0;
     }
 }

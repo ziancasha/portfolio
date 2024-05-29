@@ -314,122 +314,134 @@
                 </div>
                 <div class="container overflow-hidden">
                     <div class="row gy-5 gy-md-6 gy-lg-0 mx-1">
+                        <!-- Opciones nav-tab -->
                         <ul class="nav nav-pills nav-fill mb-1" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="pills-ux-tab" data-bs-toggle="pill" data-bs-target="#pills-ux" type="button" role="tab" aria-controls="pills-ux" aria-selected="true">
+                                <button class="nav-link active fw-bold" style="background-color: #0C141D;
+                                color: #EAF2F8;" id="pills-ux-tab" data-bs-toggle="pill" data-bs-target="#pills-ux" type="button" role="tab" aria-controls="pills-ux" aria-selected="true">
                                     UX Research
                                 </button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="pills-ui-tab" data-bs-toggle="pill" data-bs-target="#pills-ui" type="button" role="tab" aria-controls="pills-ui" aria-selected="false">
+                                <button class="nav-link fw-bold" style="color: #0C141D;" id="pills-ui-tab" data-bs-toggle="pill" data-bs-target="#pills-ui" type="button" role="tab" aria-controls="pills-ui" aria-selected="false">
                                     Diseño UI
                                 </button>
                             </li>
                         </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <!-- Encuesta -->
-                            <div class="tab-pane fade show active resultadosEncuesta" id="pills-ux" role="tabpanel" aria-labelledby="pills-ux-tab" tabindex="0">
-                                <h3 class="mb-0">
-                                    Resultados Encuestra
-                                </h3>
-                                <div class="row gy-5 gy-md-6 gy-lg-0 mx-1 justify-content-between resultadosEncuesta">
-                                    <div class="col-12 col-md-6 col-lg-5 px-2">
-                                        <p class="text-style mt-2">
-                                            Los padres de familia encontraron <strong>confuso</strong> entender los precios de reservación ya que se cuentan con <em>dos listas de precios</em>.
-                                        </p>
+                        <div class="tab-content bg-light rounded" id="pills-tabContent">
+                            <!-- UX -->
+                            <div class="tab-pane fade show active" id="pills-ux" role="tabpanel" aria-labelledby="pills-ux-tab" tabindex="0">
+                                <!-- Encuesta -->
+                                <div class="my-5">
+                                    <h3 class="my-1">
+                                        Resultados Encuestra
+                                    </h3>
+                                    <div class="row justify-content-between mt-3 px-4">
+                                        <div class="col-12 col-md-6 col-lg-6 px-1 mb-1">
+                                            <p class="text-style">
+                                                Los padres de familia encontraron <strong>confuso</strong> entender los precios de reservación ya que se cuentan con <em>dos listas de precios</em>.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6 px-1 mb-1">
+                                            <p class="text-style">
+                                                En cuanto a las actividades, <strong>no entendieron</strong> bien qué <em>tipo de actividades</em> ofrece y <em>cuándo</em> estás se llevarán a cabo.
+                                            </p>
+                                        </div>
                                     </div>
-<!-- ¿Padding fantasma? -->
-                                    <div class="col-12 col-md-6 col-lg-5 px-2">
-                                        <p class="text-style mt-0">
-                                            En cuanto a las actividades, <strong>no entendieron</strong> bien qué <em>tipo de actividades</em> ofrece y <em>cuándo</em> estás se llevarán a cabo.
-                                        </p>
-                                    </div>
-                                    <hr class="w-50 mx-auto border-dark-subtle my-2">
                                 </div>
+                                <hr class="w-50 mx-auto border-dark-subtle py-2 mb-lg-0 mb-sm-3">
                                 <!-- Keywords -->
-                                <div class="row gy-5 gy-md-6 gy-lg-0 justify-content-around align-items-center resultadosEncuesta">
-                                    <h3 class="mb-0">
+                                <div class="my-5">   
+                                    <h3 class="my-1">
                                         Keywords
                                     </h3>
-<!-- ¿Otro padding fantasma? -->
-                                    <div class="row gy-5 gy-md-6 gy-lg-0 mx-1 justify-content-between align-items-center resultadosEncuestaDes">
-                                        <div class="col-12 col-md-6 col-lg-2 mx-2">
-                                            <p class="text-style mb-0 text-center" style="background-color: #E8C64D; border-radius: 6px; padding: 1rem;">
+                                    <div class="row justify-content-around align-items-center my-4">
+                                        <div class="col-12 col-md-6 col-lg-2 mx-2 py-md-0 py-2">
+                                            <p class="text-style mb-0 text-center shadow" style="background-color: #E8C64D; border-radius: 6px; padding: 1rem;">
                                                 Comunidad
                                             </p>
                                         </div>
-                                        <div class="col-12 col-md-6 col-lg-2 mx-2">
-                                            <p class="text-style mb-0 text-center" style="background-color: #D87C75; border-radius: 6px; padding: 1rem;">
-                                                Juego consciente
+                                        <div class="col-12 col-md-6 col-lg-2 mx-2 py-md-0 py-2">
+                                            <p class="text-style mb-0 text-center shadow" style="background-color: #D87C75; border-radius: 6px; padding: 1rem;">
+                                                Juego con propósito
                                             </p>
                                         </div>
-                                        <div class="col-12 col-md-6 col-lg-2 mx-2">
-                                            <p class="text-style mb-0 text-center" style="background-color: #83C3BD; border-radius: 6px; padding: 1rem;">
+                                        <div class="col-12 col-md-6 col-lg-2 mx-2 py-md-0 py-2">
+                                            <p class="text-style mb-0 text-center shadow" style="background-color: #83C3BD; border-radius: 6px; padding: 1rem;">
                                                 Multi-cultural
                                             </p>
                                         </div>
-                                        <div class="col-12 col-md-6 col-lg-2 mx-2">
-                                            <p class="text-style mb-0 text-center" style="background-color: #F5F5F5; border-radius: 6px; padding: 1rem;">
+                                        <div class="col-12 col-md-6 col-lg-2 mx-2 py-md-0 py-2">
+                                            <p class="text-style mb-0 text-center shadow" style="background-color: #F5F5F5; border-radius: 6px; padding: 1rem;">
                                                 Juegos sofisticados
                                             </p>
                                         </div>
-                                        <div class="col-12 col-md-6 col-lg-2 mx-2">
-                                            <p class="text-overlay mb-0 text-center" style="background-color: #161616; border-radius: 6px; padding: 1rem;">
+                                        <div class="col-12 col-md-6 col-lg-2 mx-2 py-md-0 py-2">
+                                            <p class="text-overlay mb-0 text-center shadow" style="background-color: #161616; border-radius: 6px; padding: 1rem;">
                                                 Negocio local
                                             </p>
                                         </div>
-                                        <hr class="w-50 mx-auto border-dark-subtle mt-5 mb-lg-0 mb-sm-5">
                                     </div>
                                 </div>
-                                <!-- User flow -->
-                                <div class="row gy-5 gy-md-6 gy-lg-0 justify-content-between align-items-center resultadosEncuesta userflowContainer mt-lg-0 mt-sm-5">
-                                    <h3 class="mb-0">
+                                <hr class="w-50 mx-auto border-dark-subtle py-2 mb-lg-0 mb-sm-3">
+                                <!-- User Flow -->
+                                <div class="py-3 userflowContainer">
+                                    <h3 class="py-5 text-center">
                                         User Flow
                                     </h3>
-<!-- ¿Otro padding fantasma? -->
-                                    <div class="row gy-5 gy-md-6 gy-lg-0 mx-1 justify-content-between align-items-center resultadosEncuesta">
-                                        <div class="col-12 col-md-6 col-lg-8">
-                                            <img src="images/proyectos/userflowPrevious.png" class="userflowImage" alt="Diagrama de flujo de un proceso de selección de tareas. El proceso comienza en 'Home', luego pasa a 'Task Selection' que tiene dos opciones: 'General Admission' y 'Parties'. Si se selecciona 'General Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'Parties', se procede a 'Pay Deposit' y luego a 'Purchase'.">
+                                    <div class="row justify-content-center align-items-center mx-1 py-3  userFlowCardContainer">
+                                        <div class="col-12 col-md-6 col-lg-5 mx-3 userFlowCard">
+                                            <div class="d-flex justify-content-start align-items-start mt-2 mb-4">
+                                                <p class="h5 fw-bold text-overlay text-start">
+                                                    Antes
+                                                </p>
+                                            </div>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <img src="images/proyectos/userflowPrevious.png" class="userflowImage mb-4" alt="Diagrama de flujo de un proceso de selección de tareas. El proceso comienza en 'Home', luego pasa a 'Task Selection' que tiene dos opciones: 'General Admission' y 'Parties'. Si se selecciona 'General Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'Parties', se procede a 'Pay Deposit' y luego a 'Purchase'.">
+                                            </div>
+                                            <div class="d-flex justify-content-start align-items-start my-2">
+                                                <p class="text-overlay text-start">
+                                                    El sitio web actual cuenta con dos páginas diferentes para hacer reservaciones, lo cual ocasiona que los usuarios se confundan al momento de realizar su reservación.
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col-12 col-md-6 col-lg-3 align-items-start">
-                                            <p class="text-overlay mt-2">
-                                                El sitio web actual cuenta con dos páginas diferentes para hacer reservaciones, lo cual ocasiona que los usuarios se confundan al momento de realizar su reservación.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row gy-5 gy-md-6 gy-lg-0 justify-content-between align-items-center mx-1">
-                                        <div class="col-12 col-md-6 col-lg-3">
-                                            <p class="text-overlay mt-2">
-                                                Después de hacer un análisis, determinamos que sería más fácil para el usuario elegir el tipo de reservación en una misma página. De esta manera, evitaríamos que el usuario se estrese por no contar con un layout accesible.
-                                            </p>
-                                        </div>
-                                        <div class="col-12 col-md-6 col-lg-8">
-                                            <img src="images/proyectos/userflowAfter.png" class="userflowImage" alt="Diagrama de flujo de un proceso de selección de tareas. El proceso comienza en 'Home', luego pasa a 'Task Selection' que tiene tres opciones: 'All Admission', 'General Admission' y 'Parties'. Si se selecciona 'All Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'General Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'Parties', se procede a 'Pay Deposit' y luego a 'Purchase'.">
+                                        <div class="col-12 col-md-6 col-lg-5 mx-3 userFlowCard">
+                                            <div class="d-flex justify-content-start align-items-start mt-2 mb-4">
+                                                <p class="h5 fw-bold text-overlay text-start">
+                                                    Después
+                                                </p>
+                                            </div>
+                                            <div class="d-flex justify-content-start align-items-start">
+                                                <img src="images/proyectos/userflowAfter.png" class="userflowImage mb-4" alt="Diagrama de flujo de un proceso de selección de tareas. El proceso comienza en 'Home', luego pasa a 'Task Selection' que tiene tres opciones: 'All Admission', 'General Admission' y 'Parties'. Si se selecciona 'All Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'General Admission', se procede a 'Buy Ticket' y luego a 'Purchase'. Si se selecciona 'Parties', se procede a 'Pay Deposit' y luego a 'Purchase'.">
+                                            </div>
+                                            <div class="d-flex justify-content-start align-items-start my-2">
+                                                <p class="text-overlay text-start">
+                                                    Después de hacer un análisis, determinamos que sería más fácil para el usuario elegir el tipo de reservación en una misma página. De esta manera, evitaríamos que el usuario se estrese por no contar con un layout accesible.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <hr class="w-50 mx-auto border-dark-subtle py-2 mb-lg-0 mb-sm-3">
                                 <!-- Information Architecture -->
+                                <h3 class="my-2 text-center">
+                                    Arquitectura de la Información
+                                </h3>
+                            </div>
+                                    
+                                
                                 <div class="row justify-content-md-center">
                                     <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-8">
-                                        <h3 class="mt-5 text-center">
-                                            Arquitectura de la Información
-                                        </h3>
+                                        
                                         <p class="text-style text-center">
                                             Tomando la información recopilada en las encuestas, así como el análisis que hicimos, propusimos que la arquitectura de la información quedará como acontinuación se presenta:
                                         </p>
                                     </div>
-                                    <div class="container">
-                                        <div class="row">
-                                          <div class="col-12">
-                                            <div class="container-fluid">
-                                              <div class="row gy-3 gy-md-4">
-                                                <img src="images/proyectos/informationArchitecture.png" style="height: 700px; width: 100%;" alt="Diagrama comparativo de arquitectura de la información del sitio web. A la izquierda, bajo el título 'Actual', se muestra la estructura actual del menú: 'Home' con las secciones 'Book', 'Parties', 'Activities', 'Shop', 'Admission Fees', 'Menu', y un submenú 'More' que incluye 'Contact us' y 'About us'. A la derecha, bajo el título 'Propose', se muestra la estructura propuesta del menú: 'Home' con una sección 'Services' que incluye 'Menu', 'Booking' y 'Activities', seguido de las secciones 'About us' y 'Shop'.">
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
                             <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
-                          </div>
+                        </div>
                     </div>
                 </div>
             </section>
