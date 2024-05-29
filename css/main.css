@@ -388,6 +388,17 @@ p {
     width: 100%;
 }
 
+.nav .nav-link {
+    font-weight: bold;
+    color: #0C141D !important;
+}
+
+.nav .active {
+    font-weight: bold;
+    background-color: #0C141D !important;
+    color: #EAF2F8 !important;
+}
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
