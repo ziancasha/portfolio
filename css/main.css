@@ -372,6 +372,15 @@ p {
     width: 100%;
 }
 
+.encuestasBGContainer {
+    background-image: url('/images/fondoDescripcion.png'); background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; 
+    width: 100%;
+    margin-top: 1rem;
+}
+
 /* Arquitectura de la info */
 .arqInformacionCard {
     min-height: auto;
