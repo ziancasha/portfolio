@@ -47,11 +47,17 @@ a {
 .text-style {
     color: #0C141D;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.textSecundario {
+    color: #476B9A;
 }
 
 .textCard {
     color: #0C141D;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .textCardHeader {
@@ -69,6 +75,7 @@ a {
 
 .textTitulos {
     color: #0C141D;
+    text-decoration: none;
 }
 
 .icon-style {
@@ -232,7 +239,7 @@ p {
     border-radius: 15px;
 }
 
-/* Case Study */
+/* Case Study Landing */
 .section-casos-de-estudio {
     position: relative;
     background-color: #587DA5;
@@ -319,6 +326,10 @@ p {
 
 .cardimg {
     height: 640px;
+}
+
+.pillColorRW {
+    background-color: #587DA5;
 }
 
 /* Hero-CaseStudies */
