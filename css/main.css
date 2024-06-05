@@ -323,10 +323,11 @@ p {
 
 /* Hero-CaseStudies */
 .heroCaseStudies-Container {
-    height: 550px;
-    max-width: 100%;
+    background-image: url(/images/proyectos/gif-rainbow.gif);
+    height: 70vh;
+    width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .presentacionContainer {
@@ -408,6 +409,180 @@ p {
     color: #EAF2F8 !important;
 }
 
+/* Tipografía */
+.tipografiaContainer {
+    background-color: #0C141D;
+    color: #EAF2F8;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+
+/* Tarjetas Azul */
+.card-stack {
+    position: relative;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.card-stack .card {
+    width: 300px;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+/* Color gris */
+.card-stack .card:nth-child(1) {
+    z-index: 1;
+    transform: translate(20px, 20px);
+    background-color: #B0BEC5;
+    flex-shrink: 0;
+    position: absolute;
+    top: -30px;
+    left: -40px; 
+}
+
+/* Color verde azulado */
+.card-stack .card:nth-child(2) {
+    z-index: 2;
+    transform: rotate(2.814deg);
+    background-color: #80CBC4;
+    flex-shrink: 0;
+    position: absolute;
+    top: -30px;
+    left: 6px;
+}
+
+/* Color blanco */
+.card-stack .card:nth-child(3) {
+    z-index: 3;
+    transform: translate(0, 0);
+    background-color: #FFFFFF; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+/* Tarjetas Rosa */
+
+.card-stack2 {
+    position: relative;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.card-stack2 .card {
+    width: 300px;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+/* Color gris */
+.card-stack2 .card:nth-child(1) {
+    z-index: 1;
+    transform: translate(20px, 20px);
+    background-color: #B0BEC5;
+    flex-shrink: 0;
+    position: absolute;
+    top: -30px;
+    left: -40px;
+}
+
+/* Color rosa */
+.card-stack2 .card:nth-child(2) {
+    z-index: 2;
+    transform: rotate(2.814deg);
+    background-color: #D87C75;
+    flex-shrink: 0;
+    position: absolute;
+    top: -30px;
+    left: 6px;
+}
+
+/* Color blanco */
+.card-stack2 .card:nth-child(3) {
+    z-index: 3;
+    transform: translate(0, 0);
+    background-color: #FFFFFF; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+
+.paletacoloresAmarillo {
+    border-radius: 10px;
+    background-color: #E8C64D;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.paletacoloresRosa {
+    border-radius: 10px;
+    background-color: #D87C75;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.paletacoloresAzul {
+    border-radius: 10px;
+    background-color: #83C3BD;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.paletacoloresBlanco {
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.paletacoloresNegro {
+    border-radius: 10px;
+    background-color: #161616;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.paletacoloresCodigos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;  
+}
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
@@ -453,3 +628,21 @@ p {
         padding: 20px;
     }
 }
+
+/* Tarjetas tipografía */
+@media (min-width: 992px) {
+    .tipografiaCardContainer {
+        height: 520px;
+        width: 100%;
+        justify-content: center;
+        align-items: end;
+    }
+}
+
+@media (max-width: 768px) {
+    .tipografiaCardContainer {
+        height: 560px;
+    }
+}
+
+
