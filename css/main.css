@@ -594,6 +594,33 @@ p {
     padding: 20px;  
 }
 
+/* Página acerca de mí */
+.conocemeContainer {
+    background-color: #EAF2F8;
+}
+
+.hardSkillsContainer {
+    background-color: #F2F5F8;
+}
+
+.softSkillsContainer {
+    background-color: #0C141D;
+    color: #EAF2F8;
+}
+
+.interesesContainer {
+    background-color: #F2F5F8;
+}
+
+.bannerConactameContainer {
+    background-image: url('/images/contactameBanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
 /* Responsive */
 @media (min-width: 992px) {
     .container-ha {
