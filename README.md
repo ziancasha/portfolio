@@ -1,13 +1,13 @@
 ![Logo casha](images/brand/monograma.png)
 
-¡Bienvenido a mi portafolio digital! Aquí podrás encontrar una colección de mis proyectos más destacados en diseño UX/UI,
+¡Bienvenidx a mi portafolio digital! Aquí podrás encontrar una colección de mis proyectos más destacados en diseño UX/UI,
 desarrollo web, marketing digital y comercio electrónico. Este portafolio está diseñado para mostrar mi experiencia, 
 habilidades y enfoque detallado e innovador en el mundo digital.
 
 ## Sobre mí
 
-Soy Alex Castañeda, ingeniere en sistemas ambientales con formación en Diseño UX/UI y desarrollo web. 
-Con más de 5 años de experiencia en comercio electrónico y marketing digital, me dedico a optimizar la presencia digital de las empresas, 
+Soy Alex Castañeda, ingenierx en sistemas ambientales con formación en Diseño UX/UI y Desarrollo Web. 
+Con más de 5 años de experiencia en Comercio Electrónico y Marketing Digital, me dedico a optimizar la presencia digital de las empresas, 
 mejorar la experiencia de usuario y aumentar la eficiencia y satisfacción de los usuarios en las empresas.
 
 ## Proyectos Destacados
@@ -43,10 +43,10 @@ mejorar la experiencia de usuario y aumentar la eficiencia y satisfacción de lo
 - **Investigación de Usuario:** Entrevistas, encuestas, pruebas de usabilidad.
 
 ## Contáctame
-Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme.
+Si estás interesadx en colaborar o tienes alguna pregunta, no dudes en contactarme.
 - *Correo electrónico:* [contacto@casha.mx](mailto:contacto@casha.mx)
 - **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/alexcasha/)
 - **Sitio web:** [casha.mx](https://casha.mx)
 
-¡Estoy emocionade por la oportunidad de colaborar contigo en tu proyecto digital!
+¡Estoy emocionadx por la oportunidad de colaborar en tu proyecto digital!
 
