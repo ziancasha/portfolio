@@ -45,7 +45,7 @@ mejorar la experiencia de usuario y aumentar la eficiencia y satisfacción de lo
 ## Contáctame
 Si estás interesadx en colaborar o tienes alguna pregunta, no dudes en contactarme.
 - *Correo electrónico:* [contacto@casha.mx](mailto:contacto@casha.mx)
-- **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/alexcasha/)
+- **LinkedIn:** [Perfil de LinkedIn](https://www.linkedin.com/in/ziancasha)
 - **Sitio web:** [casha.mx](https://casha.mx)
 
 ¡Estoy emocionadx por la oportunidad de colaborar en tu proyecto digital!
