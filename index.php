@@ -161,7 +161,7 @@
                 <div class="row justify-content-xl-center">
                     <div class="col-12 col-xl-11">
                         <h2 class="display-4 fw-bold textTitulos mb-3">
-                            ¡Ahora, quiero conocer!
+                            ¡Ahora, quiero conocerte!
                         </h2>
                         <p class="lead fs-4 text-style mb-2">
                             Aquí abajo encontrarás toda la información necesaria para que podamos conectar.
@@ -269,7 +269,7 @@
                     <div class="col-12 col-xl-11">
                         <div class="bg-white border rounded shadow-sm overflow-hidden">
                             <!-- Opciones a llenar -->
-                            <form action="enviarFormulario.php" method="post">
+                            <form name="contact" method="POST" data-netlify="true">
                                 <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                                     <!-- Nombre completo -->
                                     <div class="col-12">
